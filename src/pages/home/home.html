@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>News App</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <div *ngFor="let p of pages">
+    <ion-card>
+      <img [src]="p.featured_image.url" src="img/nin-live.png"/>
+      <ion-card-content>
+        <ion-card-title>
+          {{p.title}}
+          </ion-card-title>
+        <p [innerHTML]="p.body">
+        </p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
