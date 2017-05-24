@@ -1,0 +1,30 @@
+body {
+    /*/background: #2a98f9;*/
+}
+.test{
+	color: yellow;
+}
+.app-title {
+    position: relative;
+    height: 50px;
+    margin: 16px auto;
+    text-align: center;
+    font-size: 30px;
+}
+iframe{
+    height: 420px;
+    width: 300px;
+}
+
+#ionic-app {
+    width: 467px;
+    height: 598px;
+    background: center top no-repeat url(/img/devices-sprite.jpg);
+    background-size: 370px 580px;
+    margin: 0 auto;
+}
+.iframe {
+    position: absolute;
+    top: 158px;
+    margin: 2px 84px;
+}
