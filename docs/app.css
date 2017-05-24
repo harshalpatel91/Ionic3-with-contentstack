@@ -19,7 +19,7 @@ iframe{
 #ionic-app {
     width: 467px;
     height: 598px;
-    background: center top no-repeat url(/img/devices-sprite.jpg);
+    background: center top no-repeat url(../img/devices-sprite.jpg);
     background-size: 370px 580px;
     margin: 0 auto;
 }
